@@ -54,7 +54,6 @@ let Form = ( props ) => {
                 return props.NewNeighborSex( "Женский" )
             case "Nnone":
                 return props.NewNeighborSex( "Не важно" )
-
         }
     }
     let updLoveAnimal = ( love ) => {
