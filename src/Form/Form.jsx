@@ -64,7 +64,6 @@ let Form = ( props ) => {
                 return props.NewLoveToAnimals( "Отрицательное" )
             default:
                 return props.NewLoveToAnimals( "Нейтральное" )
-
         }
     }
     let updSmoking = ( smoke ) => {
