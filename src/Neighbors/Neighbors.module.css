@@ -1,0 +1,62 @@
+.main {
+  margin-top: 50px;
+}
+.main .wrapper {
+  width: 50%;
+  margin: 0 auto;
+  color: #000000;
+}
+.main .wrapper .filter {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 60px 15px 50px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.6);
+}
+.main .wrapper .filter .area,
+.main .wrapper .filter .region {
+  display: flex;
+  flex-direction: column;
+}
+.filter span{
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.main .wrapper .list {
+  margin-top: 20px;
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-top: 20px;
+  width: 100%;
+  min-height: 450px;
+  background: rgba(255, 255, 255, 0.6);
+}
+.main .wrapper .list .questionnaire {
+  padding: 20px 35px 22px 30px;
+  border: 1px solid #000000;
+}
+.main .wrapper .list .questionnaire h3 {
+  display: inline-block;
+  color: #5d3311;
+  border-bottom: 2px solid #4a4144;
+  margin-bottom: 20px;
+}
+.main .wrapper .list .questionnaire .profile {
+  display: flex;
+}
+.main .wrapper .list .questionnaire .profile .info {
+  margin-left: 80px;
+}
+.main .wrapper .list .questionnaire .profile .photo {
+  width: 145px;
+  height: 165px;
+  background: #8b8686;
+}
+.main .wrapper .list .questionnaire .profile .photo img{
+  width: 145px;
+  height: 165px;
+  background: #8b8686;
+}
+.sex span{
+    margin-right: 3px;
+}

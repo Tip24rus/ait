@@ -1,0 +1,69 @@
+.form {
+    padding-top    : 50px;
+    display        : flex;
+    justify-content: space-around;
+}
+
+.form .fild {
+    margin       : 24px;
+    padding      : 24px 34px 24px 24px;
+    background   : rgba(255, 255, 255, 0.4);
+    border-radius: 15px;
+}
+
+.form .fild .label {
+    text-align : center;
+    font-size  : 18px;
+    font-weight: bold;
+    text-shadow: #5dc8e5 0 5px 5px;
+}
+
+.form .fild input {
+    border-radius: 10px;
+    width        : 100%;
+    padding      : 5px;
+    font-weight  : 700;
+}
+
+.form .radio {
+    margin-top     : 15px;
+    display        : flex;
+    justify-content: space-around;
+}
+
+.form .radio span {
+    font-weight: 700;
+    font-size  : 17px;
+    text-shadow: #5dc8e5 0 5px 5px;
+}
+
+.form .radio_trio {
+    margin-left: 10px;
+}
+
+.form .check {
+    width : 25px;
+    height: 25px;
+}
+
+.form .file {
+    display       : flex;
+    flex-direction: column;
+}
+
+.button {
+    position   : absolute;
+    margin-top : 50px;
+    margin-left: 540px;
+}
+
+.button button {
+    background: #5dc8e5;
+    padding   : 15px 50px;
+}
+
+.right .fild {
+    display       : flex;
+    flex-direction: column;
+    align-content : center;
+}

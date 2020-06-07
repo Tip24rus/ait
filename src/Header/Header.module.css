@@ -1,0 +1,33 @@
+header {
+  background: linear-gradient(to bottom left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5));
+  border-bottom: 1px solid transparent;
+  border-bottom-color: rgba(255, 255, 255, 0.2);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
+header h1 {
+
+  cursor: pointer;
+  font-size: 42px;
+  font-weight: 700;
+}
+header h1 span {
+  color: #33E0FF;
+}
+header .nav {
+  display: flex;
+  align-items: center;
+}
+header .nav a {
+  cursor: help;
+  font-weight: bold;
+  margin-right: 60px;
+}
+header .nav a:hover {
+  color: #33E0FF;
+  transition: 0.7s;
+}
+audio{
+    display: none;
+}

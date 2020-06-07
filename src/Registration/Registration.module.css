@@ -1,0 +1,24 @@
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+}
+.field{
+    margin-top: 10px;
+}
+.login{
+    color:#33E0FF;
+}
+.field p{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+.field input{
+    height: 20px;
+}
+.field button{
+    margin-top: 20px;
+}
